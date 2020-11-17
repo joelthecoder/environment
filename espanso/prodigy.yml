@@ -1,0 +1,33 @@
+name: prodigy
+parent: default
+
+matches:
+  - trigger: ":jira:"
+    replace: "https://prodigygame.atlassian.net/browse/"
+
+  - trigger: ":jira-template:"
+    replace: |
+      *Goal:*
+
+      *Acceptance Criteria:*
+
+      *Dev Notes:*
+
+      *QA Notes:*
+
+      *Figma link:*
+
+      *Risks:*
+
+      *Codebase reviewed:*
+
+      *DoR met:*
+
+  - trigger: ":pg:"
+    replace: "https://github.com/SMARTeacher/prodigy-game"
+
+  - trigger: ":pgf:"
+    replace: "https://github.com/SMARTeacher/prodigy-game-framework"
+
+  - trigger: ":clap:"
+    replace: "👏👏👏👏"
