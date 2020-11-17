@@ -5,6 +5,7 @@ tap 'homebrew/cask-versions'
 tap 'homebrew/core'
 tap 'homebrew/bundle'
 tap 'homebrew/services'
+tap 'federico-terzi/espanso'
 
 # CLI Tools
 brew 'awscli'
@@ -33,6 +34,8 @@ cask 'font-source-code-pro'
 cask 'font-source-code-pro-for-powerline'
 
 # Applications
+brew 'espanso'
+
 cask 'charles'
 cask 'dropbox'
 cask 'licecap'
