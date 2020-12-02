@@ -7,21 +7,21 @@ matches:
 
   - trigger: ":jira-template:"
     replace: |
-      *Goal:*
+      **Goal:**
 
-      *Acceptance Criteria:*
+      **Acceptance Criteria:**
 
-      *Dev Notes:*
+      **Dev Notes:**
 
-      *QA Notes:*
+      **QA Notes:**
 
-      *Figma link:*
+      **Figma link:**
 
-      *Risks:*
+      **Risks:**
 
-      *Codebase reviewed:*
+      **Codebase reviewed:**
 
-      *DoR met:*
+      **DoR met:**
 
   - trigger: ":pg:"
     replace: "https://github.com/SMARTeacher/prodigy-game"
